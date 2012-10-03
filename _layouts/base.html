@@ -3,9 +3,9 @@
 <head>
 <title>{{ page.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/may1319/css/bootstrap.min.css">
+<script type="text/javascript" src="/may1319/js/jquery.min.js"></script>
+<script type="text/javascript" src="/may1319/js/bootstrap.min.js"></script>
 
 <style type="text/css">
   body {
@@ -19,29 +19,31 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <a class="brand" href="/">Senior Design / Group 19</a>
+      <a class="brand" href="/may1319">Senior Design / Group 19</a>
     </div>
   </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="span2">
+    <div class="span2 well">
       <ul class="nav nav-list">
         <li class="nav-header">Weekly Reports</li>
-        {% for post in site.categories.weeklyreport reversed %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% for post in site.categories.weeklyreport %}
+        <li><a href="/may1319{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
 
-    <div class="span10">
+    <div class="span9">
       {{ content }}
     </div>
 </div>
-
-<footer>
-  <p>Last modified: {{ site.time }}</p>
+<br />
+<footer class="footer">
+  <div class="container">
+    <p>Last modified: {{ site.time }}</p>
+  </div>
 </footer>
 </body>
 </html>
