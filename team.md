@@ -14,12 +14,12 @@ Suraj C. Kothari
 
 Suraj C. Kothari
 
-#### Members
+#### Members / Roles
 
-* Jesse Olds
-* Brian Reber
+* Jesse Olds - Project Manager
+* Brian Reber - Web Administrator
+* Jonathan Mumm - Communication Liaison
 * Matt Hinrichsen
-* Jon Mumm
 * Nick Buchholz
 
 #### Email
