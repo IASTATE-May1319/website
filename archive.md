@@ -6,7 +6,9 @@ summary: Archive of weekly reports
 
 ## Spring 2013
 
-N/A
+{% for post in site.tags.spring2013 %}
+* [{{ post.title }}](/may1319{{ post.url }})
+{% endfor %}
 
 ## Fall 2012
 
